@@ -1,0 +1,20 @@
+---
+export interface Props {
+    src: string;
+    alt: string;
+    name: string;
+    category: string;
+}
+
+const { src, alt, name, category } = Astro.props;
+---
+
+<div class="trabajo">
+    <div class="thumb">
+        <img src={src} alt={alt} />
+    </div>
+    <div class="descripcion">
+        <p class="nombre">{name}</p>
+        <p class="categoria">{category}</p>
+    </div>
+</div>
