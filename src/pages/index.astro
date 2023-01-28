@@ -6,173 +6,150 @@ import "../styles/estilos.css";
 import "../styles/normalize.css";
 ---
 
-<Layout title="Welcome to Astro.">
-	<header>
-		<div class="contenedor">
-			<nav class="menu">
-				<a href="#aboutme">About me</a>
-				<a href="#works">Recent works</a>
-				<a href="#contacts">Contacts</a>
-			</nav>
-			<div class="contenedor-texto">
-				<div class="texto">
-					<h1 class="nombre">Estephany Paniagua</h1>
-					<h2 class="profesion">QA Engineer</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<section class="main" id="aboutme">
-		<section class="acerca-de">
-			<div class="contenedor">
-				<div class="foto">
-					<img
-						src="./img/foto2.jpg"
-						width="115"
-						height="115"
-						alt="Estephany Paniagua"
-					/>
-				</div>
-				<div class="texto">
-					<h3 class="titulo">About me</h3>
-					<p>
-						I’m an <span class="bold">Electrical Engineer</span> with
-						a specialization in Digital and Computational Systems and
-						a <span class="bold">Jr Front-end Developer</span> with experience
-						in development using <span class="bold"
-							>HTML, CSS, JS, and Python</span
-						>. I worked in a telecommunication company where I
-						implemented a couple of improvements using Python to
-						reduce the time of processes and have knowledge about
-						this area and especially roaming, also I was part of
-						university projects about IoT and I have experience in
-						this topic. Furthermore, I really like
-						<span class="bold">innovation and technology</span>,
-						actually, I'm studying about development web to be a
-						Full-stack Developer.
-					</p>
-				</div>
-			</div>
-		</section>
-		<section class="trabajos" id="works">
-			<div class="contenedor">
-				<h3 class="titulo">Recent works</h3>
-				<div class="contenedor-trabajos">
-					<Project
-						src="img/proyecto1.jpg"
-						alt="Project El Aire que respiras - UTEC"
-						name="El aire que respiras - UTEC"
-						category="C"
-					/>
+<Layout title="Estephany Paniagua's portfolio">
+  <header>
+    <div class="contenedor">
+      <nav class="menu">
+        <a href="#aboutme">About me</a>
+        <a href="#works">Recent works</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+      <div class="contenedor-texto">
+        <div class="texto">
+          <h1 class="nombre">Estephany Paniagua</h1>
+          <h2 class="profesion">QA Engineer</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="main" id="aboutme">
+    <section class="acerca-de">
+      <div class="contenedor">
+        <div class="foto">
+          <img src="./img/foto2.jpg" width="115" height="115" alt="Estephany Paniagua" />
+        </div>
+        <div class="texto">
+          <h3 class="titulo">About me</h3>
+          <p>
+            I’m an <span class="bold">Electrical Engineer</span> with a specialization in Digital and
+            Computational Systems and a <span class="bold">Jr Front-end Developer</span> with experience
+            in development using <span class="bold">HTML, CSS, JS, and Python</span>. I worked in a
+            telecommunication company where I implemented a couple of improvements using Python to
+            reduce the time of processes and have knowledge about this area and especially roaming,
+            also I was part of university projects about IoT and I have experience in this topic.
+            Furthermore, I really like
+            <span class="bold">innovation and technology</span>, actually, I'm studying about
+            development web to be a Full-stack Developer.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="trabajos" id="works">
+      <div class="contenedor">
+        <h3 class="titulo">Recent works</h3>
+        <div class="contenedor-trabajos">
+          <Project
+            src="img/proyecto1.jpg"
+            alt="Project El Aire que respiras - UTEC"
+            name="El aire que respiras - UTEC"
+            category="C"
+          />
 
-					<Project
-						src="img/proyecto2_1.jpg"
-						alt="Project Command generator"
-						name="Command generator - Entel Perú"
-						category="HTML - CSS - Python - Nginx"
-					/>
+          <Project
+            src="img/proyecto2_1.jpg"
+            alt="Project Command generator"
+            name="Command generator - Entel Perú"
+            category="HTML - CSS - Python - Nginx"
+          />
 
-					<Project
-						src="img/proyecto3.jpg"
-						alt="Project of personal portfolio of Estephany Paniagua"
-						name="Portfolio - Project personal"
-						category="HTML - CSS"
-					/>
+          <Project
+            src="img/proyecto3.jpg"
+            alt="Project of personal portfolio of Estephany Paniagua"
+            name="Portfolio - Project personal"
+            category="HTML - CSS"
+          />
 
-					<Project
-						src="img/proyecto4.jpg"
-						alt="Project IoT-based Temperature Monitoring for Buildings Thermal Comfort Analysis"
-						name="IoT-based Temperature Monitoring"
-						category="C"
-					/>
-				</div>
-			</div>
-		</section>
-	</section>
+          <Project
+            src="img/proyecto4.jpg"
+            alt="Project IoT-based Temperature Monitoring for Buildings Thermal Comfort Analysis"
+            name="IoT-based Temperature Monitoring"
+            category="C"
+          />
+        </div>
+      </div>
+    </section>
+  </section>
 
-	<footer>
-		<section class="contacto" id="contacts">
-			<div class="contenedor">
-				<h3 class="titulo">Contact</h3>
-				<form action="" class="formulario">
-					<input
-						type="text"
-						placeholder="Name"
-						name="nombre"
-						required
-					/>
-					<input
-						type="email"
-						placeholder="Mail"
-						name="correo"
-						id=""
-						required
-					/>
-					<textarea name="mensaje" placeholder="Message:"></textarea>
-					<input class="boton" type="submit" value="Send" />
-				</form>
-			</div>
-		</section>
-		<section class="redes-sociales">
-			<div class="contenedor">
-				<a
-					href="https://www.linkedin.com/in/estephanypaniagua/"
-					class="linkedin"
-					><i class="fa fa-linkedin-square"></i>
-				</a>
-				<a href="https://github.com/estephanypaniagua/" class="github">
-					<i class="fa-brands fa-github"></i>
-				</a>
+  <footer>
+    <section class="contacto" id="contacts">
+      <div class="contenedor">
+        <h3 class="titulo">Contact</h3>
+        <form action="" class="formulario">
+          <input type="text" placeholder="Name" name="nombre" required />
+          <input type="email" placeholder="Mail" name="correo" id="" required />
+          <textarea name="mensaje" placeholder="Message:"></textarea>
+          <input class="boton" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+    <section class="redes-sociales">
+      <div class="contenedor">
+        <a href="https://www.linkedin.com/in/estephanypaniagua/" class="linkedin"
+          ><i class="fa fa-linkedin-square"></i>
+        </a>
+        <a href="https://github.com/estephanypaniagua/" class="github">
+          <i class="fa-brands fa-github"></i>
+        </a>
 
-				<a href="https://t.me/e_paniagua" class="telegram"
-					><i class="fa fa-telegram" aria-hidden="true"></i>
-				</a>
-			</div>
-		</section>
-	</footer>
+        <a href="https://t.me/e_paniagua" class="telegram"
+          ><i class="fa fa-telegram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+  </footer>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 60ch;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+  .instructions {
+    line-height: 1.6;
+    margin: 1rem 0;
+    border: 1px solid rgba(var(--accent), 25%);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.4rem;
+  }
+  .instructions code {
+    font-size: 0.875em;
+    font-weight: bold;
+    background: rgba(var(--accent), 12%);
+    color: rgb(var(--accent));
+    border-radius: 4px;
+    padding: 0.3em 0.45em;
+  }
+  .instructions strong {
+    color: rgb(var(--accent));
+  }
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+  }
 </style>
